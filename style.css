@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Leckerli+One&display=swap');
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: lightpink;
+  width: 100%;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 10px;
+}
+header a{
+    text-decoration: none;
+    font-family: fantasy;
+    font-size: 40px;
+    color: brown;
+}
+img{
+    width: 150px;
+}
+h1{
+    font-size: 35px;
+    color:darkred ;
+    font-family: Leckerli One;
+}
+p{
+    font-size: 30px;
+    color: peru;
+    font-family: Handlee;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    background-color: mistyrose;
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+.caja{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0 10px 0;
+}
+.caja img{
+    border-radius: 50%;
+}
+.caja p{
+    font-size: 20px;
+}
+#nosotros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+}

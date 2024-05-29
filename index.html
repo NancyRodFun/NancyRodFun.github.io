@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <script defer src="./main.js"></script> 
+   <title>Pastelería</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="./imag/logo.png" alt="Logo repostería">
+        </div>
+        <nav>
+            <ul>
+                <a href="https://bombompasteleria.com/"><li>Home</li></a>
+                <a href="https://bombompasteleria.com/product-category/producto-temporada/"><li>Temporada</li></a>
+                <a href="https://bombompasteleria.com/product-category/postres/"><li>Postres</li></a>
+                <a href="https://bombompasteleria.com/product-category/cakes/"><li>Cakes</li> </a> 
+                <a href="https://bombompasteleria.com/product-category/postres-salados/"><li>Bocadillos</li></a>
+            </ul>
+        </nav>
+    </header>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./imag/rosa.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./imag/decor.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./imag/pastelin.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    <div class="container-fluid"; id="nosotros">
+        <h1>¿Quiénes somos?</h1>
+        <p> Cake es una pequeña empresa dedicada a satisfacer las necesidades que se le presentan a los clientes en cualquier momento, se ofrecen los mejores pasteles y postres con estilo y elegancia para todo tipo de ocasión especial que celebren las familias en diferentes fechas.
+
+            Aunque es una empresa que lleva poco tiempo operando siempre escucha la opinión del cliente para seguir mejrando.
+            
+            porque el cliente es primero.
+            
+            endulza tu vida con un buen postre y brindales una gran sonrisa a tu familia.
+            
+            porque tu felicidad nos importa. ven y visita nuestra pastelería y repostería Cake </p>
+    </div>
+    
+    <div class="contenedor">
+    <div class="container-fluid">
+    <div class="row">
+    <div class="col-md-4">
+    <div class="caja">
+    <img src="./imag/pastelin.jpg" alt="Pasteles en línea">
+    </div>
+    <h1>Pasteles en línea</h1>
+    <div class="caja" id="contenido"> 
+    <p>Disfruta de 20 deliciosas combinaciones de sabores en nuestros pasteles de línea. Listos para llevar o por encargo según variedad y la cantidad de porciones que necesites.</p>
+    </div>
+    <button onclick= "muestra_oculta ('contenido')" class="btn btn-primary" form="contenido">+</button>
+    </div>
+    
+    <div class="col-md-4">  
+    <div class="caja">
+    <img src="./imag/mamá.jpg" alt="Pasteles para mamá">
+    </div>
+    <h1>Para Mamá</h1>
+    <div class="caja" id="contenido2"> 
+    <p>Jardín de delicias para mamá, horneados con mucho amor: Pasteles, cupcakes, galletas y mucho más.</p>
+    </div>
+    <button onclick="muestra_oculta ('contenido2')" class="btn btn-primary" form="contenido2">+</button>
+    </div>
+
+
+
+<div class="col-md-4"> 
+  <div class="caja">
+  <img src="./imag/perso.png" alt="Pasteles personalizados">
+  </div>
+  <h1>Pasteles personalizados</h1>
+  <div class="caja" id="contenido3" > 
+   <p>Crea momentos inolvidables con pasteles hechos a la medida para tus seres queridos. Tu lo sueñas, nosotros lo horneamos.</p>
+   </div>
+   <button onclick= "muestra_oculta ('contenido3')" class="btn btn-primary" form="contenido3">+</button>  
+  </div>   
+  </div>
+  </div>
+  </div>   
+   </div>
+   </div>
+   
+  
+   <div class="container-fluid">
+  <div class="row">
+    <div class="col-md-4">
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3844.674857760826!2d-88.0400387261389!3d15.50191175437808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f665b45c6b35f57%3A0x88ae75a60ab2e916!2sReposter%C3%ADa%20y%20Pasteler%C3%ADa%20Gennie&#39;s!5e0!3m2!1ses-419!2shn!4v1716346176393!5m2!1ses-419!2shn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/wD-g_Gyn2I4?si=SQtHEYOi6XZN3vLz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>  
+</div> 
+</div>
+   <footer>
+    Copyright 2024. Cake pasteleria Honduras. Todos los derechos reservados.
+   </footer>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
